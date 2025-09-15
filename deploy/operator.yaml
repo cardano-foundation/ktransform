@@ -15,7 +15,7 @@ spec:
       serviceAccountName: ktransform
       containers:
         - name: ktransform
-          image: mgoltzsche/ktransform
+          image: ghcr.io/cardano-foundation/ktransform
           command:
           - ktransform
           imagePullPolicy: Always
